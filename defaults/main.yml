@@ -1,0 +1,6 @@
+---
+# defaults file for psql
+pg_package_name: "postgresql94"
+pg_repo_rpm_url: "http://yum.postgresql.org/9.4/redhat/rhel-6-x86_64/pgdg-redhat94-9.4-2.noarch.rpm" 
+
+
