@@ -8,4 +8,4 @@
 - name: install required yum packages
   yum: name={{ item }} state=installed
   with_items:
-    - {{ pg_package_name }}
+    - "{{ pg_package_name }}"
