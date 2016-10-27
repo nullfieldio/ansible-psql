@@ -1,5 +1,6 @@
 ---
 - hosts: localhost
-  remote_user: root
+  become_user: root
   roles:
     - ansible-psql
+    - role: ansible-psql
